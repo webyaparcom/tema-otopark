@@ -1,0 +1,40 @@
+{
+  "id": "tggst0xzqv",
+  "name": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "description": {
+    "tr": "Girişten çıkışa; yerden hesaba.",
+    "en": "From entry to exit; from space to settlement.",
+    "ar": "من الدخول إلى الخروج؛ من المكان إلى التسوية."
+  },
+  "keyword": {
+    "tr": "Park & Yönlendirme",
+    "en": "Parking & Guidance",
+    "ar": "ركن وتوجيه"
+  },
+  "path": "hizmetler",
+  "icon": "work",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "k1f0ru",
+      "s4rzdi"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hizmetlerimiz",
+    "en": "Our services",
+    "ar": "خدماتنا"
+  },
+  "date": "2026-11-05T18:57:27.534Z",
+  "update": "2026-11-05T23:44:46.173Z"
+}
