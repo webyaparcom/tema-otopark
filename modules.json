@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,9 +1489,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Yer ayırt",
+          "en": "Reserve",
+          "ar": "احجز مكانًا"
         },
         "cta_url": "teklif-al"
       },
@@ -1522,7 +1533,7 @@
         "hiza": "orta",
         "yukseklik": 82,
         "max": "1200px",
-        "img": "otogaleri-hero-galeri.webp",
+        "img": "otogaleri-galeri-ici.webp",
         "video": "",
         "poster": "",
         "alt": "Park Nokta",
@@ -1534,29 +1545,29 @@
         "radius": "16px",
         "eyebrow": {
           "tr": "Kapalı otopark",
-          "en": "Indoor parking",
-          "ar": "موقف مغلق"
+          "en": "Covered car park",
+          "ar": "موقف سيارات مغطى"
         },
         "title": {
-          "tr": "Araç, güvenli",
-          "en": "Car, secure",
-          "ar": "سيارة آمنة"
+          "tr": "Aracınız güvende, yeriniz hazır",
+          "en": "Your car is safe, your space is ready",
+          "ar": "سيارتك آمنة ومكانك جاهز"
         },
         "metin": {
-          "tr": "Park Nokta, otopark ve güvenlik sağlar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Park Nokta provides parking and security. Images are representative and text is fictional.",
-          "ar": "يقدم پارك نوقتا موقف وأمان. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Kameralı, 24 saat açık kapalı otopark; aylık, günlük ve saatlik park seçenekleri. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "A covered, camera-monitored car park open 24 hours, with monthly, daily and hourly options. Images are representative; text is fictional.",
+          "ar": "موقف مغطى مراقَب بالكاميرات ومفتوح على مدار الساعة، بخيارات شهرية ويومية وبالساعة. الصور تمثيلية والنصوص افتراضية."
         },
         "cta1": {
-          "tr": "Kurallar",
-          "en": "Rules",
-          "ar": "قواعد"
+          "tr": "Park seçenekleri",
+          "en": "Parking options",
+          "ar": "خيارات الركن"
         },
         "cta1_url": "hizmetler",
         "cta2": {
-          "tr": "Bilgi iste",
-          "en": "Ask info",
-          "ar": "اطلب معلومات"
+          "tr": "Yer ayırt",
+          "en": "Reserve a space",
+          "ar": "احجز مكانًا"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1613,13 +1624,13 @@
       },
       "data": [
         {
-          "deger": 400,
+          "deger": 150,
           "sonek": "",
           "ikon": "local_parking",
           "etiket": {
-            "tr": "M2 alan",
-            "en": "M2 area",
-            "ar": "منطقة م٢"
+            "tr": "Araç kapasitesi",
+            "en": "Vehicle capacity",
+            "ar": "سعة المركبات"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1628,13 +1639,13 @@
           }
         },
         {
-          "deger": 12,
+          "deger": 3,
           "sonek": "",
-          "ikon": "directions_car",
+          "ikon": "layers",
           "etiket": {
-            "tr": "Bölge",
-            "en": "Zones",
-            "ar": "مناطق"
+            "tr": "Kat",
+            "en": "Levels",
+            "ar": "طابق"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1643,13 +1654,13 @@
           }
         },
         {
-          "deger": 99,
-          "sonek": "%",
-          "ikon": "verified",
+          "deger": 24,
+          "sonek": " sa",
+          "ikon": "schedule",
           "etiket": {
-            "tr": "Zamanında",
-            "en": "On time",
-            "ar": "في الوقت"
+            "tr": "Açık saat (günlük)",
+            "en": "Open hours (daily)",
+            "ar": "ساعات العمل يوميًا"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1658,13 +1669,13 @@
           }
         },
         {
-          "deger": 5,
+          "deger": 16,
           "sonek": "",
-          "ikon": "security",
+          "ikon": "videocam",
           "etiket": {
-            "tr": "Gözlem noktası",
-            "en": "Supervision points",
-            "ar": "نقاط مراقبة"
+            "tr": "Güvenlik kamerası",
+            "en": "Security cameras",
+            "ar": "كاميرا مراقبة"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1695,9 +1706,9 @@
         "badgebg": "#2E6BFF",
         "badgecolor": "#ffffff",
         "badge": {
-          "tr": "Park & Yönlendirme",
-          "en": "Parking & Guidance",
-          "ar": "ركن وتوجيه"
+          "tr": "Park ve yönlendirme",
+          "en": "Parking & guidance",
+          "ar": "الركن والتوجيه"
         },
         "title": {
           "tr": "Nasıl çalışır?",
@@ -1705,88 +1716,88 @@
           "ar": "كيف يعمل؟"
         },
         "description": {
-          "tr": "Girişten çıkışa; yerden hesaba.",
-          "en": "From entry to exit; from space to settlement.",
-          "ar": "من الدخول إلى الخروج؛ من المكان إلى التسوية."
+          "tr": "Girişten çıkışa; plaka tanımadan ödemeye.",
+          "en": "From entry to exit, plate recognition to payment.",
+          "ar": "من الدخول إلى الخروج، من قراءة اللوحة إلى الدفع."
         }
       },
       "data": [
         {
           "icon": "local_parking",
           "name": {
-            "tr": "Aylık ve günlük",
-            "en": "Monthly and daily",
-            "ar": "شهري ويومي"
+            "tr": "Aylık ve günlük park",
+            "en": "Monthly & daily parking",
+            "ar": "ركن شهري ويومي"
           },
           "description": {
-            "tr": "Aylık, günlük ve saat bazlı (demo).",
-            "en": "Monthly, daily and hourly (demo).",
-            "ar": "شهري ويومي وساعي (تجريبي)."
-          }
-        },
-        {
-          "icon": "directions_car",
-          "name": {
-            "tr": "Araç yönlendirme",
-            "en": "Vehicle guidance",
-            "ar": "توجيه المركبة"
-          },
-          "description": {
-            "tr": "Kat ve boş yer yönlendirmesi.",
-            "en": "Floor and empty-space guidance.",
-            "ar": "توجيه طابق ومكان خالٍ."
-          }
-        },
-        {
-          "icon": "verified",
-          "name": {
-            "tr": "Kayıt ve kart",
-            "en": "Record and card",
-            "ar": "سجل وبطاقة"
-          },
-          "description": {
-            "tr": "Giriş ve çıkış kaydı.",
-            "en": "Entry and exit record.",
-            "ar": "سجل دخول وخروج."
-          }
-        },
-        {
-          "icon": "security",
-          "name": {
-            "tr": "Gözlem",
-            "en": "Supervision",
-            "ar": "المراقبة"
-          },
-          "description": {
-            "tr": "Kamera ve güvenlik kontrolü.",
-            "en": "Camera and security control.",
-            "ar": "كاميرا وتحقق أمان."
+            "tr": "Sabit yerli aylık abonelik ve günlük park.",
+            "en": "Monthly subscriptions with a fixed space, and daily parking.",
+            "ar": "اشتراك شهري بمكان ثابت وركن يومي."
           }
         },
         {
           "icon": "schedule",
           "name": {
-            "tr": "Rezervasyon",
-            "en": "Reservation",
-            "ar": "الحجز"
+            "tr": "Saatlik park",
+            "en": "Hourly parking",
+            "ar": "ركن بالساعة"
           },
           "description": {
-            "tr": "Zaman dilimi rezervasyonu.",
-            "en": "Time-slot reservation.",
-            "ar": "حجز شريحة زمنية."
+            "tr": "Kısa süreli ziyaretler için saat bazlı ücret.",
+            "en": "Hour-based pricing for short visits.",
+            "ar": "تسعير بالساعة للزيارات القصيرة."
           }
         },
         {
-          "icon": "warning",
+          "icon": "directions_car",
           "name": {
-            "tr": "Kısa park",
-            "en": "Short parking",
-            "ar": "ركن قصير"
+            "tr": "Boş yer yönlendirme",
+            "en": "Free-space guidance",
+            "ar": "توجيه إلى الأماكن الشاغرة"
           },
           "description": {
-            "tr": "Kısa süreli alan (demo).",
-            "en": "Short-term area (demo).",
-            "ar": "منطقة قصيرة (تجريبي)."
+            "tr": "Kat ve boş yer tabelaları sizi yönlendirir.",
+            "en": "Level and free-space signs guide you in.",
+            "ar": "لافتات الطوابق والأماكن الشاغرة ترشدك."
+          }
+        },
+        {
+          "icon": "videocam",
+          "name": {
+            "tr": "Kameralı güvenlik",
+            "en": "Camera security",
+            "ar": "حراسة بالكاميرات"
+          },
+          "description": {
+            "tr": "Giriş, çıkış ve katlar 7/24 kamerayla izlenir.",
+            "en": "Entrance, exit and levels are monitored around the clock.",
+            "ar": "تُراقَب المداخل والمخارج والطوابق على مدار الساعة."
+          }
+        },
+        {
+          "icon": "event_available",
+          "name": {
+            "tr": "Önceden rezervasyon",
+            "en": "Advance booking",
+            "ar": "حجز مسبق"
+          },
+          "description": {
+            "tr": "Gelmeden yerinizi ayırtın.",
+            "en": "Reserve your space before you arrive.",
+            "ar": "احجز مكانك قبل وصولك."
+          }
+        },
+        {
+          "icon": "local_car_wash",
+          "name": {
+            "tr": "Araç yıkama",
+            "en": "Car wash",
+            "ar": "غسيل السيارات"
+          },
+          "description": {
+            "tr": "Parkta kaldığınız sürede yıkama seçeneği.",
+            "en": "A wash option while your car is parked.",
+            "ar": "خيار الغسيل أثناء توقف سيارتك."
           }
         }
       ],
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Nasıl çalışır?",
+          "en": "How it works",
+          "ar": "كيف يعمل؟"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Dört adımda park",
+          "en": "Parking in four steps",
+          "ar": "الركن في أربع خطوات"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Girişten çıkışa tüm süreç.",
+          "en": "The whole flow from entry to exit.",
+          "ar": "المسار الكامل من الدخول إلى الخروج."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1841,22 +1852,22 @@
             "ar": "الدخول"
           },
           "text": {
-            "tr": "Kart ve plaka kaydı.",
-            "en": "Card and plate record.",
-            "ar": "سجل بطاقة ولوحة."
+            "tr": "Plaka okunur, bilet veya abonelik kartı alınır.",
+            "en": "The plate is read and a ticket or pass is issued.",
+            "ar": "تُقرأ اللوحة ويُصدَر تذكرة أو بطاقة اشتراك."
           }
         },
         {
           "year": "02",
           "title": {
-            "tr": "Yer",
-            "en": "Space",
-            "ar": "المكان"
+            "tr": "Yer bulma",
+            "en": "Finding a space",
+            "ar": "إيجاد مكان"
           },
           "text": {
-            "tr": "Boş alan yönlendirmesi.",
-            "en": "Empty-space guidance.",
-            "ar": "توجيه مكان خالٍ."
+            "tr": "Tabelalar boş yere yönlendirir.",
+            "en": "Signs guide you to a free space.",
+            "ar": "تقودك اللافتات إلى مكان شاغر."
           }
         },
         {
@@ -1867,22 +1878,22 @@
             "ar": "الركن"
           },
           "text": {
-            "tr": "Araç yerleştirme.",
-            "en": "Vehicle placement.",
-            "ar": "وضع المركبة."
+            "tr": "Aracınız kameralı alanda park edilir.",
+            "en": "Your car is parked in a monitored area.",
+            "ar": "تُركَن سيارتك في منطقة مراقَبة."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Çıkış",
-            "en": "Exit",
-            "ar": "الخروج"
+            "tr": "Ödeme ve çıkış",
+            "en": "Payment & exit",
+            "ar": "الدفع والخروج"
           },
           "text": {
-            "tr": "Hesap ve çıkış kaydı.",
-            "en": "Settlement and exit record.",
-            "ar": "تسوية وسجل خروج."
+            "tr": "Süre hesaplanır, ödeme sonrası bariyer açılır.",
+            "en": "The time is calculated and the barrier opens after payment.",
+            "ar": "تُحسب المدة ويُفتح الحاجز بعد الدفع."
           }
         }
       ],
@@ -1916,9 +1927,9 @@
           "ar": "فريقنا"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Sahada sizinle olanlar",
+          "en": "The people on site",
+          "ar": "فريقنا في الموقع"
         },
         "description": {
           "tr": "Kurgusal demo profiller.",
@@ -1932,42 +1943,42 @@
         {
           "name": "Cem İ.",
           "role": {
-            "tr": "Operatör",
-            "en": "Operator",
-            "ar": "مشغّل"
+            "tr": "Otopark operatörü",
+            "en": "Car park operator",
+            "ar": "مشغّل الموقف"
           },
           "bio": {
-            "tr": "7 yıl kayıt.",
-            "en": "7 years of record.",
-            "ar": "٧ سنوات في السجل."
+            "tr": "Giriş-çıkış ve abonelik işlemlerinde 7 yıl.",
+            "en": "7 years in entry-exit and subscription handling.",
+            "ar": "7 سنوات في إدارة الدخول والخروج والاشتراكات."
           },
           "img": ""
         },
         {
           "name": "Kerem A.",
           "role": {
-            "tr": "Güvenlik",
+            "tr": "Güvenlik görevlisi",
             "en": "Security officer",
-            "ar": "سلامة"
+            "ar": "موظف أمن"
           },
           "bio": {
-            "tr": "6 yıl gözlem.",
-            "en": "6 years of supervision.",
-            "ar": "٦ سنوات في المراقبة."
+            "tr": "Kamera izleme ve saha devriyesinde 6 yıl.",
+            "en": "6 years in camera monitoring and patrols.",
+            "ar": "6 سنوات في مراقبة الكاميرات والدوريات."
           },
           "img": ""
         },
         {
           "name": "Sibel T.",
           "role": {
-            "tr": "Rezervasyon",
-            "en": "Reservations officer",
-            "ar": "حجز"
+            "tr": "Rezervasyon sorumlusu",
+            "en": "Reservations lead",
+            "ar": "مسؤولة الحجوزات"
           },
           "bio": {
-            "tr": "4 yıl zaman.",
-            "en": "4 years of time.",
-            "ar": "٤ سنوات في الزمان."
+            "tr": "Abonelik ve yer planlamasında 4 yıl.",
+            "en": "4 years in subscriptions and space planning.",
+            "ar": "4 سنوات في الاشتراكات وتخطيط الأماكن."
           },
           "img": ""
         }
@@ -1998,14 +2009,14 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "starcolor": "#f59e0b",
         "badge": {
-          "tr": "Müşteri yorumları",
-          "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "tr": "Yorumlar",
+          "en": "Reviews",
+          "ar": "التقييمات"
         },
         "title": {
-          "tr": "Müşterilerimiz ne diyor?",
-          "en": "What our customers say",
-          "ar": "ماذا يقول عملاؤنا؟"
+          "tr": "Sürücüler ne diyor?",
+          "en": "What drivers say",
+          "ar": "ماذا يقول السائقون؟"
         },
         "description": {
           "tr": "Kurgusal demo yorumlar.",
@@ -2019,16 +2030,16 @@
         {
           "name": "D. Kaya.",
           "role": {
-            "tr": "Sürekli",
+            "tr": "Aylık abone",
             "en": "Monthly subscriber",
-            "ar": "دائم"
+            "ar": "مشترك شهري"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Yer yönlendirmesi net.",
-            "en": "Space guidance is clear.",
-            "ar": "توجيه المكان واضح."
+            "tr": "Yerim hep aynı katta; sabah aramak zorunda kalmıyorum.",
+            "en": "My space is always on the same level; I never have to hunt for it in the morning.",
+            "ar": "مكاني دائمًا في الطابق نفسه؛ لا أضطر للبحث عنه صباحًا."
           }
         },
         {
@@ -2041,24 +2052,24 @@
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Giriş ve çıkış hızlı.",
-            "en": "Entry and exit fast.",
-            "ar": "دخول وخروج سريعان."
+            "tr": "Giriş ve çıkışta beklemedim; yönlendirme tabelaları net.",
+            "en": "No waiting at entry or exit; the guidance signs are clear.",
+            "ar": "لم أنتظر عند الدخول أو الخروج، واللافتات واضحة."
           }
         },
         {
           "name": "H. Çetin.",
           "role": {
             "tr": "Araç sahibi",
-            "en": "Vehicle owner",
-            "ar": "صاحب مركبة"
+            "en": "Car owner",
+            "ar": "مالك سيارة"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Kart kaydı düzenli.",
-            "en": "Card record is regular.",
-            "ar": "سجل البطاقة منتظم."
+            "tr": "Gece de kameralı olması içimi rahatlatıyor.",
+            "en": "Knowing it is camera-monitored at night puts my mind at ease.",
+            "ar": "مراقبة الكاميرات ليلًا تبعث على الطمأنينة."
           }
         }
       ],
@@ -2103,9 +2114,9 @@
         "radius": "4px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Otoparkta neler var?",
+          "en": "What the car park offers",
+          "ar": "ماذا يقدّم الموقف؟"
         },
         "title": {
           "tr": "Nasıl çalışır?",
@@ -2113,9 +2124,9 @@
           "ar": "كيف يعمل؟"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; içerik kurgusaldır.",
+          "en": "Images are representative; the content is fictional.",
+          "ar": "الصور تمثيلية والمحتوى افتراضي."
         },
         "ctaLabel": {
           "tr": "Ayrıntı",
@@ -2126,16 +2137,16 @@
       "data": [
         {
           "baslik": {
-            "tr": "Aylık ve günlük",
-            "en": "Monthly and daily",
-            "ar": "شهري ويومي"
+            "tr": "Aylık ve günlük park",
+            "en": "Monthly & daily parking",
+            "ar": "ركن شهري ويومي"
           },
           "metin": {
-            "tr": "Aylık, günlük ve saat bazlı (demo).",
-            "en": "Monthly, daily and hourly (demo).",
-            "ar": "شهري ويومي وساعي (تجريبي)."
+            "tr": "Sabit yerli aylık abonelik ve günlük park.",
+            "en": "Monthly subscriptions with a fixed space, and daily parking.",
+            "ar": "اشتراك شهري بمكان ثابت وركن يومي."
           },
-          "img": "otogaleri-galeri-ici.webp",
+          "img": "lojistik-hero-filo.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2145,16 +2156,16 @@
         },
         {
           "baslik": {
-            "tr": "Araç yönlendirme",
-            "en": "Vehicle guidance",
-            "ar": "توجيه المركبة"
+            "tr": "Saatlik park",
+            "en": "Hourly parking",
+            "ar": "ركن بالساعة"
           },
           "metin": {
-            "tr": "Kat ve boş yer yönlendirmesi.",
-            "en": "Floor and empty-space guidance.",
-            "ar": "توجيه طابق ومكان خالٍ."
+            "tr": "Kısa süreli ziyaretler için saat bazlı ücret.",
+            "en": "Hour-based pricing for short visits.",
+            "ar": "تسعير بالساعة للزيارات القصيرة."
           },
-          "img": "otogaleri-ekspertiz.webp",
+          "img": "otogaleri-arac-5.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2164,16 +2175,16 @@
         },
         {
           "baslik": {
-            "tr": "Kayıt ve kart",
-            "en": "Record and card",
-            "ar": "سجل وبطاقة"
+            "tr": "Boş yer yönlendirme",
+            "en": "Free-space guidance",
+            "ar": "توجيه إلى الأماكن الشاغرة"
           },
           "metin": {
-            "tr": "Giriş ve çıkış kaydı.",
-            "en": "Entry and exit record.",
-            "ar": "سجل دخول وخروج."
+            "tr": "Kat ve boş yer tabelaları sizi yönlendirir.",
+            "en": "Level and free-space signs guide you in.",
+            "ar": "لافتات الطوابق والأماكن الشاغرة ترشدك."
           },
-          "img": "otogaleri-arac-1.webp",
+          "img": "otogaleri-anahtar.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2229,14 +2240,14 @@
         "radius": "4px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Anlaşmalı kurumlar",
+          "en": "Partner organisations",
+          "ar": "الجهات المتعاقدة"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal kurum adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional organisation names; they do not belong to a real organisation.",
+          "ar": "أسماء جهات افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2246,22 +2257,22 @@
       },
       "data": [
         {
-          "name": "Demo Araç"
+          "name": "Demo AVM"
         },
         {
-          "name": "Demo Kart"
+          "name": "Demo Hastane"
         },
         {
-          "name": "Demo Bölge"
+          "name": "Demo İş Merkezi"
         },
         {
-          "name": "Demo Bariyer"
+          "name": "Demo Otel"
         },
         {
-          "name": "Demo Gözlem"
+          "name": "Demo Taksi Durağı"
         },
         {
-          "name": "Demo Rezervasyon"
+          "name": "Demo Belediye"
         }
       ],
       "veri": {
@@ -2304,51 +2315,91 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "Ücret nasıl hesaplanır?",
+            "en": "How is the fee calculated?",
+            "ar": "كيف تُحسب الرسوم؟"
+          },
+          "answer": {
+            "tr": "Park süresine göre saatlik, günlük veya aylık tarifeyle; güncel ücretler için bizimle iletişime geçin.",
+            "en": "By parking time on an hourly, daily or monthly tariff; contact us for current rates.",
+            "ar": "حسب مدة الركن بتعرفة بالساعة أو اليوم أو الشهر؛ تواصل معنا للأسعار الحالية."
+          },
           "soru": {
             "tr": "Ücret nasıl hesaplanır?",
             "en": "How is the fee calculated?",
-            "ar": "كيف تُحسب الرسم?"
+            "ar": "كيف تُحسب الرسوم؟"
           },
           "cevap": {
-            "tr": "Süre ve alana göre değişir; demo metin örnek vermez.",
-            "en": "It varies by duration and area; this demo text gives no example.",
-            "ar": "تتغير حسب المدة والمنطقة؛ ولا يعطي هذا النص التجريبي مثالاً."
+            "tr": "Park süresine göre saatlik, günlük veya aylık tarifeyle; güncel ücretler için bizimle iletişime geçin.",
+            "en": "By parking time on an hourly, daily or monthly tariff; contact us for current rates.",
+            "ar": "حسب مدة الركن بتعرفة بالساعة أو اليوم أو الشهر؛ تواصل معنا للأسعار الحالية."
           }
         },
         {
+          "question": {
+            "tr": "Yer ayırtabilir miyim?",
+            "en": "Can I reserve a space?",
+            "ar": "هل يمكنني حجز مكان؟"
+          },
+          "answer": {
+            "tr": "Evet; formdan ya da telefonla önceden yer ayırtabilirsiniz.",
+            "en": "Yes; you can reserve in advance through the form or by phone.",
+            "ar": "نعم؛ يمكنك الحجز مسبقًا عبر النموذج أو الهاتف."
+          },
           "soru": {
-            "tr": "Rezervasyon nasıl yapılır?",
-            "en": "How do you reserve?",
-            "ar": "كيف يتم الحجز?"
+            "tr": "Yer ayırtabilir miyim?",
+            "en": "Can I reserve a space?",
+            "ar": "هل يمكنني حجز مكان؟"
           },
           "cevap": {
-            "tr": "Site formu veya hat üzerinden (demo).",
-            "en": "Via site form or phone line (demo).",
-            "ar": "عبر نموذج الموقع أو الخط (تجريبي)."
+            "tr": "Evet; formdan ya da telefonla önceden yer ayırtabilirsiniz.",
+            "en": "Yes; you can reserve in advance through the form or by phone.",
+            "ar": "نعم؛ يمكنك الحجز مسبقًا عبر النموذج أو الهاتف."
           }
         },
         {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
+            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
             "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
             "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
           }
         },
         {
+          "question": {
+            "tr": "Aracımdaki hasar veya kayıp için sorumluluk var mı?",
+            "en": "Is there liability for damage or loss to my car?",
+            "ar": "هل هناك مسؤولية عن الأضرار أو الفقدان في سيارتي؟"
+          },
+          "answer": {
+            "tr": "Koşullar park sözleşmesinde yazılıdır; giriş yaparken sözleşmeyi inceleyin. Kıymetli eşyaları araçta bırakmamanızı öneririz.",
+            "en": "Terms are set out in the parking agreement; please review it at entry. We advise not leaving valuables in the car.",
+            "ar": "الشروط مذكورة في عقد الركن؛ يُرجى الاطلاع عليه عند الدخول. ننصح بعدم ترك الأغراض الثمينة في السيارة."
+          },
           "soru": {
-            "tr": "Fiyatlar nasıl belirlenir?",
-            "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
+            "tr": "Aracımdaki hasar veya kayıp için sorumluluk var mı?",
+            "en": "Is there liability for damage or loss to my car?",
+            "ar": "هل هناك مسؤولية عن الأضرار أو الفقدان في سيارتي؟"
           },
           "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Koşullar park sözleşmesinde yazılıdır; giriş yaparken sözleşmeyi inceleyin. Kıymetli eşyaları araçta bırakmamanızı öneririz.",
+            "en": "Terms are set out in the parking agreement; please review it at entry. We advise not leaving valuables in the car.",
+            "ar": "الشروط مذكورة في عقد الركن؛ يُرجى الاطلاع عليه عند الدخول. ننصح بعدم ترك الأغراض الثمينة في السيارة."
           }
         }
       ],
@@ -2406,14 +2457,14 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "4px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Yer ayırtın",
+          "en": "Reserve a space",
+          "ar": "احجز مكانًا"
         },
         "description": {
           "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
           "en": "Leave your details; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
-          "ar": "اترك بياناتك وسنرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات."
+          "ar": "اترك بياناتك؛ نردّ خلال يومي عمل على الأكثر. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يتم حفظ أي بيانات."
         },
         "panelTitle": {
           "tr": "Park Nokta",
@@ -2421,22 +2472,22 @@
           "ar": "Park Nokta"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; içerik kurgusaldır.",
+          "en": "Images are representative; the content is fictional.",
+          "ar": "الصور تمثيلية والمحتوى افتراضي."
         },
         "address": {
-          "tr": "Kapalı Sokak No: 1, Şahinbey, Gazانتep (kurgusal adres)",
-          "en": "1 Kapalı Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع مغلق رقم 1، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "tr": "Kapalı Sokak No: 1, Şahinbey, Gaziantep (kurgusal adres)",
+          "en": "1 Kapali Street, Sahinbey, Gaziantep (fictional address)",
+          "ar": "شارع كاباليه رقم 1، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 020 01 12",
         "whatsapp": "903420200112",
-        "email": "yer@parknokka.example",
+        "email": "yer@parknokta.example",
         "hours": {
           "tr": "24 saat / 7 gün",
           "en": "24 hours / 7 days",
-          "ar": "٢٤ ساعة / ٧ أيام"
+          "ar": "24 ساعة / 7 أيام"
         },
         "mapUrl": "",
         "mapEmbed": "",
@@ -2477,9 +2528,9 @@
         },
         "social": [],
         "formTitle": {
-          "tr": "Teklif formu",
-          "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "tr": "Yer ayırtma formu",
+          "en": "Reservation form",
+          "ar": "نموذج الحجز"
         },
         "nameLabel": {
           "tr": "Ad Soyad",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Aylık abonelik",
+              "en": "Monthly pass",
+              "ar": "اشتراك شهري"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Günlük / saatlik yer",
+              "en": "Daily / hourly space",
+              "ar": "مكان يومي / بالساعة"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Kurumsal anlaşma",
+              "en": "Corporate agreement",
+              "ar": "اتفاقية مؤسسية"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,32 +2691,32 @@
           "ar": "Park Nokta"
         },
         "description": {
-          "tr": "Park Nokta, otopark ve güvenlik sağlar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Park Nokta provides parking and security. Images are representative and text is fictional.",
-          "ar": "يقدم پارك نوقتا موقف وأمان. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Park Nokta; aylık, günlük ve saatlik park seçenekleri sunan, kameralı ve 24 saat açık bir kapalı otoparktır. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Park Nokta is a camera-monitored covered car park open 24 hours, offering monthly, daily and hourly parking. Images are representative; text is fictional.",
+          "ar": "بارك نقطة موقف سيارات مغطى مراقَب بالكاميرات ومفتوح على مدار الساعة، يقدّم ركنًا شهريًا ويوميًا وبالساعة. الصور تمثيلية والنصوص افتراضية."
         },
         "name2": {
-          "tr": "Bariyer",
-          "en": "Barrier",
-          "ar": "حاجز"
+          "tr": "Bariyerli giriş",
+          "en": "Barrier entry",
+          "ar": "مدخل بحاجز"
         },
         "spot2": {
-          "tr": "Giriş ve çıkış aynı bariyerde.",
-          "en": "Entry and exit at the same barrier.",
-          "ar": "الدخول والخروج على نفس الحاجز."
+          "tr": "Plaka okuyan bariyerle hızlı giriş ve çıkış.",
+          "en": "Fast entry and exit with a plate-reading barrier.",
+          "ar": "دخول وخروج سريعان بحاجز يقرأ اللوحات."
         },
-        "icon2": "verified",
+        "icon2": "toll",
         "name3": {
-          "tr": "Plaka defteri",
-          "en": "Plate book",
-          "ar": "دفتر اللوحات"
+          "tr": "Vale ve anahtar teslim",
+          "en": "Valet & key handover",
+          "ar": "خدمة الصف وتسليم المفاتيح"
         },
         "spot3": {
-          "tr": "Her giriş ve çıkış plaka kaydıyla.",
-          "en": "Every entry and exit with plate record.",
-          "ar": "كل دخول وخروج بسجل لوحة."
+          "tr": "Vale hizmetinde anahtar kayıtla alınır ve iade edilir.",
+          "en": "With valet service, keys are logged on receipt and on return.",
+          "ar": "في خدمة الصف تُسجَّل المفاتيح عند الاستلام والإعادة."
         },
-        "icon3": "schedule",
+        "icon3": "key",
         "img": "otogaleri-anahtar.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
@@ -2731,15 +2783,15 @@
         "description": {
           "tr": "24 saat / 7 gün",
           "en": "24 hours / 7 days",
-          "ar": "٢٤ ساعة / ٧ أيام"
+          "ar": "24 ساعة / 7 أيام"
         },
         "phone": "+90 342 020 01 12",
         "whatsapp": "903420200112",
-        "email": "yer@parknokka.example",
+        "email": "yer@parknokta.example",
         "address": {
-          "tr": "Kapalı Sokak No: 1, Şahinbey, Gazانتep (kurgusal adres)",
-          "en": "1 Kapalı Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع مغلق رقم 1، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "tr": "Kapalı Sokak No: 1, Şahinbey, Gaziantep (kurgusal adres)",
+          "en": "1 Kapali Street, Sahinbey, Gaziantep (fictional address)",
+          "ar": "شارع كاباليه رقم 1، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "mapsUrl": "",
         "waMessage": {
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "24 saat / 7 gün",
+          "en": "24 hours / 7 days",
+          "ar": "24 ساعة / 7 أيام"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2847,25 +2899,25 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "4px",
         "title": {
-          "tr": "Yer hazır",
-          "en": "Spot ready",
-          "ar": "المكان جاهز"
+          "tr": "Yeriniz hazır",
+          "en": "Your space is waiting",
+          "ar": "مكانك بانتظارك"
         },
         "text": {
-          "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
-          "en": "We reply within two business days. No data is stored on this demo site.",
-          "ar": "نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "tr": "Aylık abonelik veya yer ayırtma için formu doldurun; iki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
+          "en": "Fill in the form for a monthly pass or a reservation; we reply within two business days. No data is stored on this demo site.",
+          "ar": "املأ النموذج لاشتراك شهري أو حجز مكان؛ نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
         },
         "btn1Label": {
-          "tr": "Formu doldurun",
-          "en": "Fill the form",
-          "ar": "املأ النموذج"
+          "tr": "Yer ayırt",
+          "en": "Reserve a space",
+          "ar": "احجز مكانًا"
         },
         "btn1Url": "teklif-al",
         "btn2Label": {
-          "tr": "Hizmetleri gör",
-          "en": "See services",
-          "ar": "شاهد الخدمات"
+          "tr": "Park seçenekleri",
+          "en": "Parking options",
+          "ar": "خيارات الركن"
         },
         "btn2Url": "hizmetler",
         "number": "903420200112",
@@ -2883,7 +2935,7 @@
         "hours": {
           "tr": "24 saat / 7 gün",
           "en": "24 hours / 7 days",
-          "ar": "٢٤ ساعة / ٧ أيام"
+          "ar": "24 ساعة / 7 أيام"
         },
         "hoursLabel": {
           "tr": "Çalışma saatleri",
@@ -3054,12 +3106,12 @@
         ],
         "hours": [],
         "address": {
-          "tr": "Kapalı Sokak No: 1, Şahinbey, Gazانتep (kurgusal adres)",
-          "en": "1 Kapalı Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع مغلق رقم 1، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "tr": "Kapalı Sokak No: 1, Şahinbey, Gaziantep (kurgusal adres)",
+          "en": "1 Kapali Street, Sahinbey, Gaziantep (fictional address)",
+          "ar": "شارع كاباليه رقم 1، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 020 01 12",
-        "email": "yer@parknokka.example",
+        "email": "yer@parknokta.example",
         "social": [],
         "legal": [
           {

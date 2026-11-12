@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Girişten çıkışa; yerden hesaba.",
-        "en": "From entry to exit; from space to settlement.",
-        "ar": "من الدخول إلى الخروج؛ من المكان إلى التسوية."
+        "tr": "Girişten çıkışa; plaka tanımadan ödemeye.",
+        "en": "From entry to exit, plate recognition to payment.",
+        "ar": "من الدخول إلى الخروج، من قراءة اللوحة إلى الدفع."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -49,9 +49,9 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Otopark ve güvenlik; görseller temsilîdir.",
-        "en": "Parking and security; images are representative.",
-        "ar": "موقف وأمان؛ الصور تمثيلية."
+        "tr": "Kameralı kapalı otopark; görseller temsilîdir.",
+        "en": "Camera-monitored covered car park; images are representative.",
+        "ar": "موقف مغطى مراقَب بالكاميرات؛ الصور تمثيلية."
       }
     },
     {

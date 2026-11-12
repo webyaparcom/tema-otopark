@@ -6,14 +6,14 @@
     "ar": "خدماتنا"
   },
   "description": {
-    "tr": "Girişten çıkışa; yerden hesaba.",
-    "en": "From entry to exit; from space to settlement.",
-    "ar": "من الدخول إلى الخروج؛ من المكان إلى التسوية."
+    "tr": "Girişten çıkışa; plaka tanımadan ödemeye.",
+    "en": "From entry to exit, plate recognition to payment.",
+    "ar": "من الدخول إلى الخروج، من قراءة اللوحة إلى الدفع."
   },
   "keyword": {
-    "tr": "Park & Yönlendirme",
-    "en": "Parking & Guidance",
-    "ar": "ركن وتوجيه"
+    "tr": "Park ve yönlendirme",
+    "en": "Parking & guidance",
+    "ar": "الركن والتوجيه"
   },
   "path": "hizmetler",
   "icon": "work",
@@ -36,5 +36,5 @@
     "ar": "خدماتنا"
   },
   "date": "2026-11-05T18:57:27.534Z",
-  "update": "2026-11-05T23:44:46.173Z"
+  "update": "2026-11-12T07:36:38.873Z"
 }

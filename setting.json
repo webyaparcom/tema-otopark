@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Otopark ve güvenlik; görseller temsilîdir.",
-    "en": "Parking and security; images are representative.",
-    "ar": "موقف وأمان؛ الصور تمثيلية."
+    "tr": "Kapalı otopark: aylık, günlük ve saatlik park, kameralı güvenlik ve araç yıkama; görseller temsilîdir.",
+    "en": "Covered car park: monthly, daily and hourly parking, camera security and car wash; images are representative.",
+    "ar": "موقف سيارات مغطى: ركن شهري ويومي وبالساعة وحراسة بالكاميرات وغسيل سيارات؛ الصور تمثيلية."
   },
   "keyword": {
-    "tr": "otopark, araç, güvenlik",
-    "en": "parking, car, security",
-    "ar": "موقف، سيارة، أمان"
+    "tr": "otopark, kapalı otopark, aylık park, vale, araç güvenliği",
+    "en": "car park, covered parking, monthly parking, valet, vehicle security",
+    "ar": "موقف سيارات، موقف مغطى، ركن شهري، خدمة صف السيارات، أمن المركبات"
   },
   "category": "Kurumsal",
   "name": "Park Nokta",

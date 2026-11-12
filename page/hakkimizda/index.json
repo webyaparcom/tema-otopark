@@ -21,9 +21,9 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Otopark ve güvenlik; görseller temsilîdir.",
-    "en": "Parking and security; images are representative.",
-    "ar": "موقف وأمان؛ الصور تمثيلية."
+    "tr": "Kameralı kapalı otopark; görseller temsilîdir.",
+    "en": "Camera-monitored covered car park; images are representative.",
+    "ar": "موقف مغطى مراقَب بالكاميرات؛ الصور تمثيلية."
   },
   "spot": {
     "tr": "",
@@ -42,6 +42,6 @@
     "ar": "من نحن"
   },
   "text": {},
-  "update": "2026-11-05T23:44:46.176Z",
+  "update": "2026-11-12T07:36:38.877Z",
   "date": "2026-10-30"
 }

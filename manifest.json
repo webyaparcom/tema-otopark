@@ -1,7 +1,7 @@
 {
   "name": "Park Nokta",
   "short_name": "Park Nokta",
-  "description": "Otopark ve güvenlik; görseller temsilîdir.",
+  "description": "Kapalı otopark: aylık, günlük ve saatlik park, kameralı güvenlik ve araç yıkama; görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",
