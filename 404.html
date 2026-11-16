@@ -7,11 +7,11 @@
 <title>404 — Park Nokta</title>
 </head>
 <body>
-<link rel="stylesheet" href="/src/rubik.css?v=n2xri" />
+<link rel="stylesheet" href="/src/rubik.css?v=fnx88" />
 <nav>
   <div href="/" class="menu">
     <a href="/" class="website_name"
-      ><img src="/img/logo.png?v=n2xri" width="300" alt="Park Nokta Logo"
+      ><img src="/img/logo.png?v=fnx88" width="300" alt="Park Nokta Logo"
     /></a>
   </div>
 </nav>
@@ -828,7 +828,7 @@
 <script>
   setTimeout(function() {
     var currentPath = window.location.pathname;
-    var rtlLanguages = ['ar', 'he', 'fa']; // RTL diller: Arapça, İbranice, Farsça
+    var rtlLanguages = ['ar', 'fa', 'he', 'ur']; // RTL diller (services/webmaker/langKatalog.js yon:rtl aynası): Arapça, Farsça, İbranice, Urduca
     var langMatch = currentPath.match(/^\/([a-z]{2})\//);
     var currentLang = langMatch ? langMatch[1] : '';
     if (rtlLanguages.indexOf(currentLang) !== -1) {
